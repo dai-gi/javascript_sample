@@ -1,1 +1,1 @@
-# javascript_sample
+# JavaScript学習用
