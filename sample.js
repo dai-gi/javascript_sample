@@ -1,11 +1,17 @@
-alert("Hello, JavaScript");
+// 加算
+console.log(5 + 3);
 
-// コメント
+//減算
+console.log(5 - 3);
 
-/*
-複数行コメント
+// 乗算
+console.log(3 * 2);
 
-ここから始まる文章をコメントアウトします。
-コメント
-ここまでがコメントでした
-*/
+// 除算
+console.log(6 / 3);
+
+// 剰余（余り）
+console.log(5 % 3);
+
+// べき乗（下記は5の2乗）
+console.log(5 ** 2);
