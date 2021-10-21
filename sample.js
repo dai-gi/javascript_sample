@@ -15,3 +15,6 @@ console.log(5 % 3);
 
 // べき乗（下記は5の2乗）
 console.log(5 ** 2);
+
+// 文字列の演算
+console.log("Hello" + "World");
