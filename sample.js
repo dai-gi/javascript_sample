@@ -1,20 +1,6 @@
-// 加算
-console.log(5 + 3);
+// 変数を定義
+let number = 1;
+console.log(number);
 
-//減算
-console.log(5 - 3);
-
-// 乗算
-console.log(3 * 2);
-
-// 除算
-console.log(6 / 3);
-
-// 剰余（余り）
-console.log(5 % 3);
-
-// べき乗（下記は5の2乗）
-console.log(5 ** 2);
-
-// 文字列の演算
-console.log("Hello" + "World");
+// 代入されたnumber変数を使う
+console.log(number + 3);
