@@ -1,6 +1,4 @@
-// 変数を定義
-let number = 1;
-console.log(number);
-
-// 代入されたnumber変数を使う
-console.log(number + 3);
+let width = 100;
+let height = 50;
+let area = width * height;
+console.log(area);
