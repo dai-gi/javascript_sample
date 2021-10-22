@@ -1,4 +1,8 @@
-let point = 5;
-if (point >= 5) {
+let point = 10;
+if (point >= 10) {
     console.log("High");
+} else if (point >= 5) {
+    console.log("Middle");
+} else {
+    console.log("Low");
 }
