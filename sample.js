@@ -1,4 +1,7 @@
-let width = 100;
-let height = 50;
+let width;
+let height;
+
+width = 100;
+height = 50;
 let area = width * height;
 console.log(area);
