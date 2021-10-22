@@ -1,7 +1,3 @@
-let width;
-let height;
-
-width = 100;
-height = 50;
-let area = width * height;
-console.log(area);
+let number = 1;
+number = number + 3; // 1 + 3
+console.log(number);
