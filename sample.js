@@ -1,6 +1,5 @@
-function doubling(number) {
-    // 関数定義の中に記述される引数（仮引数）
-    console.log(number * 2);
+function add(n, y) {
+    return n + y; // 値を呼び出し元に返す事ができる。
 }
 
-doubling(5); // 関数が実行される時に渡される引数（実引数）
+console.log(add(2, 3));
