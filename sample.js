@@ -1,11 +1,4 @@
-let num = 1;
-while (num < 5) {
-    // ここから処理を追加
-    if (num == 3) {
-        console.log(num);
-        break;
-    }
-    // ここまで処理を追加
+for (let num = 1; num < 5; num = num + 1) {
+    // 初期化式; 条件式; 更新式
     console.log(num);
-    num = num + 1;
 }
