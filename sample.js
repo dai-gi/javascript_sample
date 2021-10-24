@@ -1,6 +1,11 @@
-let num = 1; // 変数numに1を代入する
+let num = 1;
 while (num < 5) {
-    // 値が5以上になると条件式(num < 5)がfalseになり、処理が終了する
+    // ここから処理を追加
+    if (num == 3) {
+        console.log(num);
+        break;
+    }
+    // ここまで処理を追加
     console.log(num);
-    num = num + 1; //繰り返しごとに変数numに1を加算
+    num = num + 1;
 }
