@@ -1,2 +1,2 @@
-let name = "Taro";
-console.log(name + "さん、こんにちは");
+let name;
+console.log(name);
