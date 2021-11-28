@@ -1,6 +1,6 @@
-console.log(typeof 1);
-console.log(typeof "Hello,World");
-console.log(typeof true);
-// number
-// string
-// boolean
+console.log(0b100); // 先頭に0bをつけると2進数
+console.log(0100); // 先頭に0をつけると8進数
+console.log(0x100); // 先頭に0xをつけると16進数
+// 4
+// 64
+// 256
