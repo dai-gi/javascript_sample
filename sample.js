@@ -1,4 +1,3 @@
-const number = 5;
-number = 6;
-console.log(number);
-// TypeError: Assignment to constant variable.
+console.log(name);
+let name = "Taro";
+// ReferenceError: Cannot access 'name' before initialization
