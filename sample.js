@@ -1,6 +1,2 @@
-console.log(0b100); // 先頭に0bをつけると2進数
-console.log(0100); // 先頭に0をつけると8進数
-console.log(0x100); // 先頭に0xをつけると16進数
-// 4
-// 64
-// 256
+console.log("A" / 1);
+// NaN
