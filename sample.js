@@ -1,3 +1,6 @@
-console.log(name);
-let name = "Taro";
-// ReferenceError: Cannot access 'name' before initialization
+greeting();
+
+function greeting() {
+    console.log("こんにちは");
+}
+// 関数宣言文が巻き上げられて、エラーにならずに実行される
