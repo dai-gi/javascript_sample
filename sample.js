@@ -1,6 +1,11 @@
-greeting();
+let firstName = "Taro";
 
 function greeting() {
-    console.log("こんにちは");
+    let familyName = "DIVE";
+    console.log(familyName, firstName);
 }
-// 関数宣言文が巻き上げられて、エラーにならずに実行される
+
+greeting();
+// DIVE Taro
+console.log(familyName);
+// ReferenceError: familyName is not defined
