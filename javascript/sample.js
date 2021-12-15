@@ -1,5 +1,10 @@
-let num = 1;
-do {
+for(let num = 1; num < 5; num++) {
+    if(num == 3) break;
     console.log(num);
-    num++;
-} while (num < 5);
+}
+
+for(let num = 1; num < 5; num++) {
+    if(num == 4);
+    console.log(num);
+    break
+}
