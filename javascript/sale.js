@@ -20,9 +20,9 @@ function calc() {
         if(sum == 0 || sum >= 3000) {
             postage = 0;
         } else if(sum < 2000) {
-            sum += 500;
+            postage += 500;
         } else {
-            sum += 250;
+            postage += 250;
         }
     }
     window.alert(`送料は${postage}円です。合計は${sum + postage}円です`)
