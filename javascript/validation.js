@@ -6,6 +6,7 @@ function confirmSubmit() {
       const message = document.createTextNode('Eメールが一致しません');
       element.appendChild(message);
       forms[0].appendChild(element);
+      element.classList.add('alert')
       return false;
     }
   };

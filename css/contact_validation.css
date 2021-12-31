@@ -78,3 +78,10 @@ body {
 .reset_btn {
   background: #e6e6e6;
 }
+
+/* エラーメッセージ */
+.alert {
+  padding: 20px;
+  background: #d14539;
+  color: #fff;
+}
