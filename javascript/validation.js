@@ -1,13 +1,16 @@
 function emailValidation() {
-  const forms = document.getElementById('form');
-  forms.addEventListener("submit", function() {
-    if( forms.email.value !== forms.email_confirm.value) {
+  const form = document.getElementById('form');
+  form.addEventListener("submit", function(e) {
+    if( form.email.value !== form.email_confirm.value) {
+      e.preventDefault();
       const element = document.createElement('p');
       const message = document.createTextNode('Eメールが一致しません');
       element.appendChild(message);
-      forms.appendChild(element);
+      form.appendChild(element);
       element.classList.add('alert')
-      return false;
+      setTimeout(function() {
+        form.removeChild(element);
+      }, 3000);
     }
   });
 };
