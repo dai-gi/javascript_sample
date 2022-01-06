@@ -111,8 +111,10 @@ body {
 }
 
 /* エラーメッセージ */
-.alert {
-  padding: 20px;
-  background: #d14539;
-  color: #fff;
+.alert1 {
+  color: #d14539;
+}
+
+.alert2 {
+  background: rgba(230,169,171,.5);
 }
